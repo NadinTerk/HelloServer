@@ -10,7 +10,7 @@ public class SimpleClient {
 
         System.out.println("Welcome to Client side");
 
-        Socket fromserver = new Socket("192.168.0.63",4444);
+        Socket fromserver = new Socket("localhost", 4444);
 
         BufferedReader in  = new
                 BufferedReader(new
