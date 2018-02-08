@@ -17,7 +17,7 @@ public class SimpleServer {
 
         // create server socket
         try {
-            servers = new ServerSocket(4444, 0, InetAddress.getByName("192.168.0.63"));
+            servers = new ServerSocket(4444, 0, InetAddress.getByName("localhost"));
         } catch (IOException e) {
             System.out.println("Couldn't listen to port 4444");
             System.exit(-1);
